@@ -20,3 +20,16 @@
 .App-link {
   color: #09d3ac;
 }
+
+.team-member {
+  border: 1px solid black;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #E8E8E8;
+  width: 25%;
+}
+
+.team-member p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}

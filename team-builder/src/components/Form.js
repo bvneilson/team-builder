@@ -22,7 +22,7 @@ const Form = (props) => {
       <input type="text" placeholder="Email" name="email" id="email" onChange={handleChange}></input><br /><br />
       <label htmlFor="role">Role: </label>
       <input type="text" placeholder="Role" name="role" id="role" onChange={handleChange}></input><br /><br />
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Add Team Member" />
     </form>
   );
 }
